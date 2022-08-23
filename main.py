@@ -184,7 +184,7 @@ def main():
     subject = "IT Tickets Report"
     excel_file = "Issues_Report.xlsx"
     content = "PFA the attached IT Tickets Report"
-    send_mail_with_excel("wajeehrehman30@gmail.com", subject,content, excel_file)
+    send_mail_with_excel("recepient_email", subject,content, excel_file)
     time.sleep(10)
     os.remove("Issues_Report.xlsx")
 
